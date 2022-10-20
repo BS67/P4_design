@@ -1,0 +1,163 @@
+<results>
+  <header/>
+<!--Result Definition for Window1-->
+  <resultWindow name="Window1" product="mechanica" visible="false">
+<!--Application Specific Info-->
+    <appInfo>
+      <study id="119274" name="Analysis2" path=".\" type="4">
+        <analysis id="119270" name="Analysis2"/>
+        <loadModeInfo action="4" type="4">
+          <loadModeScale included="true" scale="1.000000"/>
+        </loadModeInfo>
+      </study>
+      <location geomLocationType="all" useAll="false"/>
+      <relativeTo id="214" to="csys"/>
+    </appInfo>
+    <genInfo lastViewedTab="quantity" windowTitle="Analysis2 - Analysis2">
+      <quantity ConsiderPhase="false" PhaseConsiderationAvailable="true" averaged="false" component="31" phaseAmplitude="151" rangeClass="0" rangeDimension="1" unit="MPa"/>
+      <display backGroundColor="3" exploded="false" type="fringe">
+        <threeD bondingElements="false" constraints="false" coordSys="true" csysTriad="true" elementEdges="false" loads="false" overlay="false" overlayTransparent="false" shaded="true">
+          <numberDisplay elementNumber="false" nodeNumber="false" resultValue="false"/>
+        </threeD>
+        <fringeInfo continuous="false" contour="false" contourLabelDensity="2" isoSurface="false" labelContour="false"/>
+        <deformInfo deformed="false"/>
+        <legendInfo>
+          <valueInfo maxValue="-1.00000004E+35" minLevel="true" minValue=" 1.00000004E+35" numContourLevels="15" scaleMaxMin="true" showMaxMin="true" transparentFringes="false">
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+            <legendLevel>
+               0.00000000E+00
+            </legendLevel>
+          </valueInfo>
+          <colorInfo colorSpectrum="default" invert="false"/>
+        </legendInfo>
+        <visibilityInfo contourLabels="false" csys="true" label="true" legend="true" title="true"/>
+      </display>
+    </genInfo>
+  </resultWindow>
+<!--Result Definition for Window2-->
+  <resultWindow name="Window2" product="mechanica" visible="true">
+<!--Application Specific Info-->
+    <appInfo>
+      <study id="119274" name="Analysis2" path=".\" type="4">
+        <analysis id="119270" name="Analysis2"/>
+        <loadModeInfo action="4" type="4">
+          <loadModeScale included="true" scale="1.000000"/>
+        </loadModeInfo>
+      </study>
+      <location geomLocationType="all" useAll="false"/>
+      <relativeTo id="214" to="csys"/>
+    </appInfo>
+    <genInfo lastViewedTab="quantity" windowTitle="Analysis2 - Analysis2">
+      <quantity ConsiderPhase="false" PhaseConsiderationAvailable="true" averaged="false" component="31" phaseAmplitude="151" rangeClass="0" rangeDimension="1" unit="MPa"/>
+      <display backGroundColor="3" exploded="false" type="fringe">
+        <threeD bondingElements="false" constraints="false" coordSys="true" csysTriad="true" elementEdges="false" loads="false" overlay="false" overlayTransparent="false" shaded="true">
+          <numberDisplay elementNumber="false" nodeNumber="false" resultValue="false"/>
+        </threeD>
+        <fringeInfo continuous="false" contour="false" contourLabelDensity="2" isoSurface="false" labelContour="false"/>
+        <deformInfo deformed="false"/>
+        <legendInfo>
+          <valueInfo maxValue=" 1.77445236E+02" minLevel="true" minValue=" 6.17042358E-04" numContourLevels="15" scaleMaxMin="true" showMaxMin="true" transparentFringes="false">
+            <legendLevel>
+               1.10909061E+01
+            </legendLevel>
+            <legendLevel>
+               2.21811962E+01
+            </legendLevel>
+            <legendLevel>
+               3.32714844E+01
+            </legendLevel>
+            <legendLevel>
+               4.43617744E+01
+            </legendLevel>
+            <legendLevel>
+               5.54520645E+01
+            </legendLevel>
+            <legendLevel>
+               6.65423508E+01
+            </legendLevel>
+            <legendLevel>
+               7.76326447E+01
+            </legendLevel>
+            <legendLevel>
+               8.87229309E+01
+            </legendLevel>
+            <legendLevel>
+               9.98132172E+01
+            </legendLevel>
+            <legendLevel>
+               1.10903511E+02
+            </legendLevel>
+            <legendLevel>
+               1.21993797E+02
+            </legendLevel>
+            <legendLevel>
+               1.33084076E+02
+            </legendLevel>
+            <legendLevel>
+               1.44174362E+02
+            </legendLevel>
+            <legendLevel>
+               1.55264664E+02
+            </legendLevel>
+            <legendLevel>
+               1.66354950E+02
+            </legendLevel>
+          </valueInfo>
+          <colorInfo colorSpectrum="default" invert="false"/>
+        </legendInfo>
+        <visibilityInfo contourLabels="false" csys="true" label="true" legend="true" title="true"/>
+      </display>
+      <viewInfo winHeight="5.369271" winWidth="12.891667">
+        <windowPlacement magnification="0.640000" orientation="0.000000" xy0="-0.374571" xy1="-0.006833"/>
+        <viewMatrix>
+          <row0 col0="0.0837481088" col1="-0.0114426779" col2="0.0089281918"/>
+          <row1 col0="0.0079435970" col1="0.0798974972" col2="0.0278869578"/>
+          <row2 col0="-0.0121468825" col1="-0.0266429778" col2="0.0797934721"/>
+          <row3 col0="0.0000000000" col1="0.0000000000" col2="0.0000000000"/>
+        </viewMatrix>
+      </viewInfo>
+    </genInfo>
+  </resultWindow>
+</results>
+

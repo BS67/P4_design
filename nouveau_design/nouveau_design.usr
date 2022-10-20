@@ -1,0 +1,29 @@
+#PID -1900
+#ErrMsgId 89
+#ErrMsgStr
+Starting analysis nouveau_design
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 1 - nouveau_design
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 2 - nouveau_design
+#ErrMsgEnd
+#ErrMsgId 545616693
+#ErrMsgStr
+
+            The strains are large during this analysis, which may lead to
+            inaccurate results. You should consider using the Calculate
+            Large Deformations option, if applicable.
+
+#ErrMsgEnd
+#ErrMsgId 661
+#ErrProAddr 2 17001 1467 0 -1 
+#ErrMsgId 95
+#ErrMsgId 91
+#ErrMsgStr
+Analysis nouveau_design completed
+#ErrMsgEnd
+#ErrMsgId 92

@@ -1,0 +1,21 @@
+#PID -1152
+#ErrMsgId 89
+#ErrMsgStr
+Starting analysis verin_pour_mvt
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 1 - verin_pour_mvt
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 2 - verin_pour_mvt
+#ErrMsgEnd
+#ErrMsgId 661
+#ErrProAddr 2 17001 1467 0 -1 
+#ErrMsgId 95
+#ErrMsgId 91
+#ErrMsgStr
+Analysis verin_pour_mvt completed
+#ErrMsgEnd
+#ErrMsgId 92

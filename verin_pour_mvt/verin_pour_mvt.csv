@@ -1,0 +1,26 @@
+
+Analysis:verin_pour_mvt, Loadset:LoadSet1
+max_beam_bending, 0
+max_beam_tensile, 0
+max_beam_torsion, 0
+max_beam_total, 0
+max_disp_mag, 10.0718, 24.5503, 43.8107, 1.5
+max_disp_x, 9.46359, 18.9253, 43.8107, 1.5
+max_disp_y, -3.44715, 24.5503, 43.8107, 1.5
+max_disp_z, -0.0138487, 12.25, -30.5, -1.5
+max_prin_mag, -58, 12.7431, 8.25943, 1.5
+max_rot_mag, 0, -6.38792, 0.397268, -1.5
+max_rot_x, 0, -17.9, -3.10865, -0.75
+max_rot_y, 0, -17.9, -3.10865, -0.75
+max_rot_z, 0, -17.9, -3.10865, -0.75
+max_stress_prin, 50.6378, 11.5848, 9.84812, -0.75
+max_stress_vm, 57.8586, 12.7431, 8.25943, 1.5
+max_stress_xx, -47.5117, -6.10711, -29, -1.5
+max_stress_xy, -21.0823, -10.9634, 8.38161, 0.000420757
+max_stress_xz, -8.89337, 5.80948, -29.9, -1.5
+max_stress_yy, -52.2153, 12.7431, 8.25943, 1.5
+max_stress_yz, -6.95888, -9.24564, 0.894203, -1.5
+max_stress_zz, 11.9166, 5.80948, -31.7, -1.5
+min_stress_prin, -58, 12.7431, 8.25943, 1.5
+strain_energy, 41.6828
+deplacement_basse, 0.878866, 9.55026, 43.8107, -1.5

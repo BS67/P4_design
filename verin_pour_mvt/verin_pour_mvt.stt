@@ -1,0 +1,292 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-80-44:spg
+Log for Design Study "verin_pour_mvt"
+Thu Oct 20, 2022   17:12:33
+------------------------------------------------------------
+
+Engine Command with the specified command line options:
+
+ C:\Program Files\PTC\Creo 8.0.4.0\Common Files\mech\x86e_win64\bin\msengine.exe  verin_pour_mvt  -i  .  -w  .  -solram  512  -sim_calculate_node_reaction  -sturm  default  -nl_ldc  -num_threads  ALL  -results_io_cache_size  1024 
+
+Begin Creating Database for Design Study
+Thu Oct 20, 2022   17:12:33
+   Elapsed Time       (sec):       0.06
+   CPU Time           (sec):       0.05
+   Memory Usage        (kb):      65518
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.00
+
+Begin Integrated Mode Error Checking
+Thu Oct 20, 2022   17:12:33
+   Elapsed Time       (sec):       0.06
+   CPU Time           (sec):       0.05
+   Memory Usage        (kb):      65518
+   Work Dir Disk Usage (kb):          0
+
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.02
+
+Begin Generating Elements
+Thu Oct 20, 2022   17:12:33
+   Elapsed Time       (sec):       0.06
+   CPU Time           (sec):       0.06
+   Memory Usage        (kb):      65534
+   Work Dir Disk Usage (kb):          0
+
+Copying elements from an existing study model ...
+Successfully copied elements from an existing study model.
+
+
+A complete set of elements already exists.
+
+OK
+
+
+   Step Elapsed Time  (sec):       0.09
+   Step CPU Time      (sec):       0.09
+
+Begin Integrated Mode Error Checking
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.15
+   CPU Time           (sec):       0.16
+   Memory Usage        (kb):      75069
+   Work Dir Disk Usage (kb):          0
+Checking the model after creating elements...
+No errors were found in the model.
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.02
+
+Begin Engine Bookkeeping
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.17
+   CPU Time           (sec):       0.17
+   Memory Usage        (kb):      75183
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.01
+
+Begin Analysis: "verin_pour_mvt"
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.19
+   CPU Time           (sec):       0.19
+   Memory Usage        (kb):      75188
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.03
+   Step CPU Time      (sec):       0.03
+
+Begin Mass Calculation
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.22
+   CPU Time           (sec):       0.22
+   Memory Usage        (kb):      77429
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.02
+
+Begin P-Loop Pass 1
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.24
+   CPU Time           (sec):       0.23
+   Memory Usage        (kb):      78154
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.02
+
+Begin Element Calculations, Pass 1
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.26
+   CPU Time           (sec):       0.25
+   Memory Usage        (kb):      95468
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.04
+   Step CPU Time      (sec):       0.05
+
+Begin Global Matrix Assembly, Pass 1
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.30
+   CPU Time           (sec):       0.30
+   Memory Usage        (kb):      97637
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.00
+
+Begin Equation Solve, Pass 1
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.30
+   CPU Time           (sec):       0.30
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.09
+   Step CPU Time      (sec):       0.08
+
+Begin Load Calculations
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.39
+   CPU Time           (sec):       0.38
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.02
+
+Begin Post-Processing Calculations, Pass 1
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.39
+   CPU Time           (sec):       0.39
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.08
+   Step CPU Time      (sec):       0.08
+
+Begin Convergence Check Pass 1
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.47
+   CPU Time           (sec):       0.47
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.05
+   Step CPU Time      (sec):       0.05
+
+Begin Strain Energy Calculations
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.52
+   CPU Time           (sec):       0.52
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.01
+   Step CPU Time      (sec):       0.02
+
+Begin P-Loop Pass 2
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.53
+   CPU Time           (sec):       0.53
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.02
+
+Begin Element Calculations, Pass 2
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.56
+   CPU Time           (sec):       0.55
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.06
+   Step CPU Time      (sec):       0.06
+
+Begin Global Matrix Assembly, Pass 2
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.61
+   CPU Time           (sec):       0.61
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      18432
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.00
+
+Begin Equation Solve, Pass 2
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.62
+   CPU Time           (sec):       0.61
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      18432
+
+   Step Elapsed Time  (sec):       0.10
+   Step CPU Time      (sec):       0.09
+
+Begin Load Calculations
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.71
+   CPU Time           (sec):       0.70
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      18432
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.02
+
+Begin Post-Processing Calculations, Pass 2
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.72
+   CPU Time           (sec):       0.72
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      18432
+
+   Step Elapsed Time  (sec):       0.10
+   Step CPU Time      (sec):       0.09
+
+Begin Convergence Check Pass 2
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.81
+   CPU Time           (sec):       0.81
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      18432
+
+   Step Elapsed Time  (sec):       0.06
+   Step CPU Time      (sec):       0.06
+
+Begin Displacement and Stress Calculation
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.87
+   CPU Time           (sec):       0.88
+   Memory Usage        (kb):    2087019
+   Work Dir Disk Usage (kb):      18432
+
+   Step Elapsed Time  (sec):       0.11
+   Step CPU Time      (sec):       0.09
+
+Begin Reaction Calculation
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       0.98
+   CPU Time           (sec):       0.97
+   Memory Usage        (kb):    2096779
+   Work Dir Disk Usage (kb):      18432
+
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.03
+
+Begin Strain Energy Calculations
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       1.00
+   CPU Time           (sec):       1.00
+   Memory Usage        (kb):    2096779
+   Work Dir Disk Usage (kb):      18432
+
+   Step Elapsed Time  (sec):       0.04
+   Step CPU Time      (sec):       0.03
+
+Completed P-Loop
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       1.03
+   CPU Time           (sec):       1.03
+   Memory Usage        (kb):    2096779
+   Work Dir Disk Usage (kb):      18432
+
+   Step Elapsed Time  (sec):       0.01
+   Step CPU Time      (sec):       0.00
+
+Completed Analysis: verin_pour_mvt
+Thu Oct 20, 2022   17:12:34
+   Elapsed Time       (sec):       1.04
+   CPU Time           (sec):       1.03
+   Memory Usage        (kb):    2096779
+   Work Dir Disk Usage (kb):      18432

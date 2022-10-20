@@ -1,0 +1,376 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-80-44:spg
+Log for Design Study "nouveau_design"
+Thu Oct 20, 2022   17:31:24
+------------------------------------------------------------
+
+Engine Command with the specified command line options:
+
+ C:\Program Files\PTC\Creo 8.0.4.0\Common Files\mech\x86e_win64\bin\msengine.exe  nouveau_design  -i  .  -w  .  -solram  512  -sim_calculate_node_reaction  -sturm  default  -nl_ldc  -num_threads  ALL  -results_io_cache_size  1024 
+
+Begin Creating Database for Design Study
+Thu Oct 20, 2022   17:31:24
+   Elapsed Time       (sec):       0.05
+   CPU Time           (sec):       0.03
+   Memory Usage        (kb):      64127
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.00
+
+Begin Integrated Mode Error Checking
+Thu Oct 20, 2022   17:31:24
+   Elapsed Time       (sec):       0.05
+   CPU Time           (sec):       0.03
+   Memory Usage        (kb):      64152
+   Work Dir Disk Usage (kb):          0
+
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.00
+
+Begin Generating Elements
+Thu Oct 20, 2022   17:31:24
+   Elapsed Time       (sec):       0.06
+   CPU Time           (sec):       0.03
+   Memory Usage        (kb):      64279
+   Work Dir Disk Usage (kb):          0
+
+Copying elements from an existing study model ...
+Only copied 62% of the elements. The model must be remeshed.
+Element copy failed.  Creo Simulate will automatically remesh.
+
+
+____________________________________________________________
+
+          AutoGEM Settings
+
+  Isolate Surface Features: 
+
+  [x] Reentrant Corners
+  [x] Point Loads
+  [x] Point Constraints
+  [x] Point Heat Loads
+  [x] Point Prescribed Temperatures
+  [x] Point Convection Conditions
+
+ ------------------------------------------
+
+  [x] Insert Points
+  [x] Create Links Where Needed
+  [x] Move or Delete Existing Points
+  [x] Modify or Delete Existing Elements
+  [ ] Detailed Fillet Modeling
+  [ ] Display AutoGEM Messages
+  [ ] Automatic Interrupt
+
+ ------------------------------------------
+
+  Shell Element Type:   Quad and Tri
+  Solid Element Type:   Brick, Wedge, Tetra
+
+  Allowable Angles (Degrees):
+    Edge    Min:   5.0  Max:  175.0
+    Face    Min:   5.0  Max:  175.0
+
+  Max Allowable Edge Turn (Degrees):  95.0
+
+  Max Allowable Aspect Ratio:  30.0
+
+____________________________________________________________
+
+Working on 1 volume(s) ...
+Pre-processing features for 56 surfaces ...
+
+Some entities form 8 edge angles
+that are less than the minimum angle specified
+on the AutoGEM Settings data form.  The minimum
+angle detected is 0.86  degrees.  Do you want
+AutoGEM to change the minimum angle at these entities?
+
+OK
+
+Pre-processing boundary features ...
+Optimizing boundary point locations ...
+Detecting thin features on the volume ...
+Pre-processing volume features ...
+Searching for existing solid elements inside the volume ...
+Found 0 existing solid element(s) inside the volume.
+Creating solid elements ...
+Optimizing elements ...
+Adding 541 solid elements to model ...
+Displaying Elements ...
+
+____________________________________________________________
+
+          AutoGEM Summary
+
+  Entities Created:
+
+    Beam:         0       Edge:              1098
+    Tri:          0       Face:              1358
+    Quad:         0       Face-Face Link:    0
+    Tetra:      541       Edge-Face Link:    0
+    Wedge:        0
+    Brick:        0
+
+ ----------------------------------------------------
+
+  Criteria Satisfied:
+
+  Angles (Degrees):
+    Edge  Min:   5.0    Max:  165.6
+    Face  Min:   5.6    Max:  170.5
+
+  Max Aspect Ratio: 10.1
+
+  Elapsed Time:    0.0 min    CPU Time:   0.0 min
+
+____________________________________________________________
+
+
+   Step Elapsed Time  (sec):       0.38
+   Step CPU Time      (sec):       1.16
+
+Begin Integrated Mode Error Checking
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.44
+   CPU Time           (sec):       1.19
+   Memory Usage        (kb):     101095
+   Work Dir Disk Usage (kb):          0
+Checking the model after creating elements...
+No errors were found in the model.
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.03
+
+Begin Engine Bookkeeping
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.46
+   CPU Time           (sec):       1.22
+   Memory Usage        (kb):     101095
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.02
+
+Begin Analysis: "nouveau_design"
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.48
+   CPU Time           (sec):       1.23
+   Memory Usage        (kb):     101095
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.03
+   Step CPU Time      (sec):       0.02
+
+Begin Mass Calculation
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.51
+   CPU Time           (sec):       1.25
+   Memory Usage        (kb):     101095
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.03
+
+Begin P-Loop Pass 1
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.53
+   CPU Time           (sec):       1.28
+   Memory Usage        (kb):     101095
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.01
+
+Begin Element Calculations, Pass 1
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.54
+   CPU Time           (sec):       1.30
+   Memory Usage        (kb):     101095
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.07
+   Step CPU Time      (sec):       0.03
+
+Begin Global Matrix Assembly, Pass 1
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.62
+   CPU Time           (sec):       1.33
+   Memory Usage        (kb):     101095
+   Work Dir Disk Usage (kb):      10240
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.00
+
+Begin Equation Solve, Pass 1
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.62
+   CPU Time           (sec):       1.33
+   Memory Usage        (kb):     101095
+   Work Dir Disk Usage (kb):      10240
+
+   Step Elapsed Time  (sec):       0.07
+   Step CPU Time      (sec):       0.14
+
+Begin Load Calculations
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.69
+   CPU Time           (sec):       1.47
+   Memory Usage        (kb):     613175
+   Work Dir Disk Usage (kb):      10240
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.00
+
+Begin Post-Processing Calculations, Pass 1
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.69
+   CPU Time           (sec):       1.47
+   Memory Usage        (kb):     613175
+   Work Dir Disk Usage (kb):      10240
+
+   Step Elapsed Time  (sec):       0.07
+   Step CPU Time      (sec):       0.06
+
+Begin Convergence Check Pass 1
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.75
+   CPU Time           (sec):       1.53
+   Memory Usage        (kb):     613175
+   Work Dir Disk Usage (kb):      10240
+
+   Step Elapsed Time  (sec):       0.05
+   Step CPU Time      (sec):       0.05
+
+Begin Strain Energy Calculations
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.80
+   CPU Time           (sec):       1.58
+   Memory Usage        (kb):     613175
+   Work Dir Disk Usage (kb):      10240
+
+   Step Elapsed Time  (sec):       0.01
+   Step CPU Time      (sec):       0.02
+
+Begin P-Loop Pass 2
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.81
+   CPU Time           (sec):       1.59
+   Memory Usage        (kb):     613175
+   Work Dir Disk Usage (kb):      10240
+
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.02
+
+Begin Element Calculations, Pass 2
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.83
+   CPU Time           (sec):       1.61
+   Memory Usage        (kb):     613175
+   Work Dir Disk Usage (kb):      10240
+
+   Step Elapsed Time  (sec):       0.15
+   Step CPU Time      (sec):       0.11
+
+Begin Global Matrix Assembly, Pass 2
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.98
+   CPU Time           (sec):       1.72
+   Memory Usage        (kb):     613175
+   Work Dir Disk Usage (kb):      17408
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.00
+
+Begin Equation Solve, Pass 2
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       0.99
+   CPU Time           (sec):       1.72
+   Memory Usage        (kb):     613175
+   Work Dir Disk Usage (kb):      17408
+
+   Step Elapsed Time  (sec):       0.09
+   Step CPU Time      (sec):       0.13
+
+Begin Load Calculations
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       1.07
+   CPU Time           (sec):       1.84
+   Memory Usage        (kb):     613175
+   Work Dir Disk Usage (kb):      17408
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.00
+
+Begin Post-Processing Calculations, Pass 2
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       1.08
+   CPU Time           (sec):       1.84
+   Memory Usage        (kb):     613175
+   Work Dir Disk Usage (kb):      17408
+
+   Step Elapsed Time  (sec):       0.10
+   Step CPU Time      (sec):       0.10
+
+Begin Convergence Check Pass 2
+Thu Oct 20, 2022   17:31:25
+   Elapsed Time       (sec):       1.18
+   CPU Time           (sec):       1.94
+   Memory Usage        (kb):     613175
+   Work Dir Disk Usage (kb):      17408
+
+   Step Elapsed Time  (sec):       0.07
+   Step CPU Time      (sec):       0.08
+
+Begin Displacement and Stress Calculation
+Thu Oct 20, 2022   17:31:26
+   Elapsed Time       (sec):       1.25
+   CPU Time           (sec):       2.02
+   Memory Usage        (kb):     613175
+   Work Dir Disk Usage (kb):      17408
+
+   Step Elapsed Time  (sec):       0.09
+   Step CPU Time      (sec):       0.08
+
+Begin Reaction Calculation
+Thu Oct 20, 2022   17:31:26
+   Elapsed Time       (sec):       1.34
+   CPU Time           (sec):       2.09
+   Memory Usage        (kb):     634987
+   Work Dir Disk Usage (kb):      17408
+
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.03
+
+Begin Strain Energy Calculations
+Thu Oct 20, 2022   17:31:26
+   Elapsed Time       (sec):       1.36
+   CPU Time           (sec):       2.12
+   Memory Usage        (kb):     634987
+   Work Dir Disk Usage (kb):      17408
+
+   Step Elapsed Time  (sec):       0.03
+   Step CPU Time      (sec):       0.03
+
+Completed P-Loop
+Thu Oct 20, 2022   17:31:26
+   Elapsed Time       (sec):       1.39
+   CPU Time           (sec):       2.16
+   Memory Usage        (kb):     634987
+   Work Dir Disk Usage (kb):      17408
+
+   Step Elapsed Time  (sec):       0.00
+   Step CPU Time      (sec):       0.00
+
+Completed Analysis: nouveau_design
+Thu Oct 20, 2022   17:31:26
+   Elapsed Time       (sec):       1.39
+   CPU Time           (sec):       2.16
+   Memory Usage        (kb):     634987
+   Work Dir Disk Usage (kb):      17408

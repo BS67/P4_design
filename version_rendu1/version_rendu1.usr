@@ -1,0 +1,21 @@
+#PID -1320
+#ErrMsgId 89
+#ErrMsgStr
+Starting analysis version_rendu1
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 1 - version_rendu1
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 2 - version_rendu1
+#ErrMsgEnd
+#ErrMsgId 661
+#ErrProAddr 2 17001 1467 0 -1 
+#ErrMsgId 95
+#ErrMsgId 91
+#ErrMsgStr
+Analysis version_rendu1 completed
+#ErrMsgEnd
+#ErrMsgId 92
